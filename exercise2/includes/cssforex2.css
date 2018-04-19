@@ -1,0 +1,150 @@
+﻿*{margin:0; padding:0;}
+header,main,footer,section,nav{
+	display:block;
+}
+nav
+{
+	font-family:verdana;
+	font-size:30px;
+	font-weight:bold;
+	padding-left:100px;
+	color: #264951;
+	display: inline-block;
+}
+a
+{
+	text-decoration:none;
+}
+header
+{
+	background-color:#f6f9f9;
+	text-align:center;
+	width:100%;
+	width:1600px;
+	line-height:100px;
+}
+header a {
+	color: #264951;
+}
+header a:hover
+{
+	color:#858b8c;
+}
+.logo
+{
+	font-size:16px;
+	width:197px;
+	text-align:right;
+	font-family:Arial;
+	background-image:url(../images/my-logo.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	display:inline-block;
+}
+.coverimage
+{
+	text-align:center;
+	width:1600px;
+	height:800px;
+	background-image:url(../images/coverbw.png);
+	background-repeat:no-repeat;
+	display:block;
+	display:inline-block;
+}
+.coverimage h1
+{
+	font-family:Arial;
+	text-align:center;
+	margin-top:240px;
+	font-size:120px;
+	color:#ffffff;
+	border-bottom:#15a4fa solid 2px;
+	display:block;
+	display:inline-block;
+}
+.coverimage h5
+{
+	font-family:Arial;
+	text-align:center;
+	margin-top:40px;
+	font-size:20px;
+	color:#ffffff;
+	display:block;
+}
+
+.coverimage a
+{
+	font-family:Arial;
+	text-align:center;
+	margin-top:70px;
+	font-size:18px;
+	color:#ffffff;
+	border:#15a4fa solid 1px;
+	padding:20px;
+	display:inline-block;
+}
+.undercover
+{
+	width:1600px;
+	text-align:center;
+	background-color:#f6f9f9;
+	direction:rtl;
+}
+.undercover h3
+{
+	font-family:Myriad Hebrew;
+	color:#2d3950;
+	font-size:40px;
+	display:block;
+}
+.undercover h5
+{
+	font-family:Arial;
+	color:#999999;
+	font-size:20px;
+	display:block;
+}
+.skills h3
+{
+	padding-top:80px;
+	font-familt:Myriad Pro;
+	text-align:center;
+	color:#2d3950;
+	font-size:41px;
+	padding-bottom:60px;
+	display:block;
+}
+.skills li
+{
+	font-family:Courier New;
+	font-size:30px;
+	list-style-type:none;
+}
+.skills img
+{
+	vertical-align:middle;
+}
+.c
+{
+	margin-bottom:20px;
+}
+.assembler
+{
+	margin-bottom:30px;
+}
+footer
+{
+	width:1600px;
+	background-color:#f6f9f9;
+	vertical-align:middle;
+	line-height:90px;
+}
+footer img
+{
+	vertical-align: middle;
+}
+footer p
+{
+	padding-left:17px;
+	display:inline-block;
+}
