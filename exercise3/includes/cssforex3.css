@@ -1,0 +1,23 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+header,nav,aside,article,section,footer,main
+{
+	display:block;
+}
+#wrapper
+{
+	width: 1000px;
+	margin: 0px auto;
+	width:100px;
+	height:1000px;
+	background-color:#000000;
+}
+.clear
+{
+	clear:both;
+}
+
+
