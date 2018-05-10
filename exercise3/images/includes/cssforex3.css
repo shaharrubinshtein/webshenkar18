@@ -1,0 +1,223 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+header,nav,aside,article,section,footer,main
+{
+	display:block;
+}
+#wrapper{
+	width: 1000px;
+	margin: 0px auto;
+	height:1000px;
+	background-color:#ffffff;
+}
+.clear{
+	clear:both;
+}
+header{
+	width:1000px;
+	height:183px;
+}
+
+#mainMenu1{
+	width:729px;
+	height:57px;
+	background-color:#b94a48;
+	margin-top:126px;
+	float:right;
+}
+#mainMenu1 ul{
+	list-style-type:none;
+}
+ul li{
+	float:left;
+}
+a{
+	text-decoration:none;
+}
+li a{
+	color:#ffffff;
+}
+.firstTab{
+	width:243px;
+	height:57px;
+	background-color:#333333;
+	color:#ffffff;
+	font-family:Adobe Hebrew;
+	text-align:center;
+	line-height:57px
+}
+.secondTab{
+	width:243px;
+	height:57px;
+	background-color:#b94a48;
+	color:#ffffff;
+	font-family:Adobe Hebrew;
+	text-align:center;
+	line-height:57px
+}
+.thirdTab{
+	width:243px;
+	height:57px;
+	background-color:#b94a48;
+	color:#ffffff;
+	font-family:Adobe Hebrew;
+	text-align:center;
+	line-height:57px
+}
+#main1{
+	width:879px;
+	height:697px;
+	background-color:#ffffff;
+	float:left;
+}
+#box1{
+	width:849px;
+	height:268px;
+	background-color:#ee5f5b;
+	margin-left:30px;
+	position:relative;
+}
+#box2{
+	width:126px;
+	height:94px;
+	float:left;
+	background-color:#000000;
+	opacity:0.6;
+	position:absolute;
+	left:342px;
+	top:89px;
+}
+#logo1{
+	width:68px;
+	height:68px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	display:block;
+	margin-left:105px;
+	margin-top:11px;
+	float:left;
+}
+#layout1Aside{
+	width:121px;
+	height:697px;
+	float:left;
+	background-color:#f2dede;
+}
+.greyBox{
+	width:692px;
+	height:175px;
+	float:left;
+	background-color:#000000;
+	opacity:0.6;
+	margin-left:97px;
+	margin-top:229px;
+}
+#footer1{
+	width:1000px;
+	height:121px;
+	background-color:#d6d6d6;
+}
+
+#logo2{
+	width:68px;
+	height:68px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	display:block;
+	padding-top:38px;
+	background-position:center;
+	margin: 0px auto;
+}
+#layout2Aside{
+	width:243px;
+	height:757px;
+	float:left;
+	background-color:#333333;
+}
+#mainMenu2 p{
+	padding-left:6px;
+}
+#mainMenu2 ul{
+	list-style-type:none;
+}
+.firstTab2{
+	width:243px;
+	height:57px;
+	background-color:#333333;
+	color:#ffffff;
+	font-family:Adobe Hebrew;
+	line-height:57px;
+}
+.secondTab2{
+	width:243px;
+	height:57px;
+	background-color:#b94a48;
+	color:#ffffff;
+	font-family:Adobe Hebrew;
+	line-height:57px;
+}
+.thirdTab2{
+	width:243px;
+	height:57px;
+	background-color:#333333;
+	color:#ffffff;
+	font-family:Adobe Hebrew;
+	line-height:57px;
+}
+#main2{
+	width:757px;
+	height:757px;
+	position:relative;
+	background-color:#ee5f5b;
+	float:left;
+	overflow: hidden;
+}
+#firstBox{
+	width:212px;
+	height:366px;
+	position:absolute;
+	background-color:#000000;
+	opacity:0.6;
+	left:30px;
+}
+#secondBox{
+	width:212px;
+	height:560px;
+	position:absolute;
+	background-color:#000000;
+	opacity:0.6;
+	left:272px;
+}
+#thirdBox{
+	width:212px;
+	height:223px;
+	position:absolute;
+	background-color:#000000;
+	opacity:0.6;
+	left:514px;
+}
+#fourthBox{
+	width:212px;
+	height:500px;
+	position:absolute;
+	background-color:#000000;
+	opacity:0.6;
+	top:385px;
+	left:30px;
+}
+#fifthBox{
+	width:212px;
+	height:306px;
+	position:absolute;
+	background-color:#000000;
+	opacity:0.6;
+	top:582px;
+	left:272px;
+}
+#footer2{
+	width:1000px;
+	height:50px;
+	background-color:#d6d6d6;
+}
