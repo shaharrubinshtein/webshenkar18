@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shahar Rubinshtein </title>
+
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="includes/style.css">
+    <script src="includes/form.js" async></script>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+
+    <section id="wrapper">
+
+                <p id="text">Register form</p>
+                <br>
+                <br>
+                <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get">
+                    <label id="formName">Full Name:<input type="text" id="formNameIn" required name="fullName" value" "></label>
+                    <div class="clear"></div>
+
+
+                    <label id="formPassword">password:<input type="password" id="formPasswordIn" required name="pass" value" " maxlength="8"></label>
+                    <div class="clear"></div>
+
+
+                    <label id="formEmail">Email:<input type="email" id="formEmailIn" required name="mail" value" "></label>
+                    
+
+                    <label id="formWebSite">Website:<input id="formWebSiteIn" type="website" name="url"></label>
+                    <div class="clear"></div>
+
+
+                    <label id="formTel">Phone:<input type="tel" id="formTelIn" required name="phone" value" "></label>
+                    <div class="clear"></div>
+
+
+                    <label id="formCoffee">Coffee:<input type="number" id="formCoffeeIn" name="coffee" value="0" min="0" max="20"></label>
+                    <div class="clear"></div>
+
+                    <label id="formTemp">temperture:&nbsp; &nbsp;&nbsp;&nbsp; 0  <input type="range" id="formTempIn" name="temper" value="0" min="0" max="50">50</label>
+                    <div class="clear"></div>
+
+                    <label id="formAddress">Address:<br><textarea id="textArea"  required name="address" rows="4" cols="20" value" "></textarea></label>
+                    <div class="clear"></div>
+
+
+                    <p  id="errorText"></p>
+                    <button id="button1" type="button">אמת נתוני כתובת</button>
+                    <div class="clear"></div>
+
+
+                    <h3 id="hobbies">your hobbies are: </h3>
+                    <br>
+                    <div class="clear"></div>
+
+                    <section id="hobbiesIn">
+                        Reading books: <input type="checkbox" name="interests[]" value="Reading Books"><br>
+
+
+                        Play with my children:<input type="checkbox" name="interests[]" value="Children"><br>
+
+                        Sleeping:<input type="checkbox" name="interests[]" value="Sleeping"><br>
+
+                    </section>
+
+                    <div class="clear"></div>
+
+                    <h3 id="gender">gender:</h3>
+
+                    <div class="clear"></div>
+
+                    <section id="genderIn">
+                        <label>female<input type="radio" required name="gender" value="female" value" "></label>
+
+
+
+                        <label>male<input type="radio" required name="gender" value="male" value" "></label><br>
+
+                    </section>
+
+                    <div class="clear"></div>
+
+                        <label id="formAge">age:<select  name="age" > 
+                            
+                            
+                    </label><option value="18" selected>18</option>  
+                        <option value="19" >19</option>  
+                        <option value="20">20</option> 
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                    </select></label><br>
+                
+                    <div class="clear"></div>
+                <button id="buttonSubmit" type="button">submit</button>
+                <label><input id="submitId" type="submit"></label>
+                </form>
+    </section>
+</body>
+</html>

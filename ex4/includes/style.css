@@ -1,0 +1,186 @@
+*{
+
+    padding: 0;
+    margin:0;   
+
+ 
+}
+
+
+#wrapper{
+    margin:0 auto;
+    width: 400px;
+
+  
+
+
+}
+
+#text{
+
+float:left;
+    margin-left:45px;
+    font-weight: bold;
+
+}
+
+
+#formPassword{
+    float:left;
+    margin-top:10px;
+    margin-left: 50px;
+}
+
+#formPasswordIn{
+    margin-left: 37px;
+}
+
+
+
+#formEmail{
+    float:left;
+    margin-top:10px;
+    margin-left: 50px;
+}
+
+#formEmailIn{
+    margin-left: 59px;
+}
+
+
+#formName{
+    float:left;
+    margin-left: 50px;
+
+}
+
+#formNameIn{
+    margin-left: 30px;
+}
+
+#formWebSite{
+    float:left;
+    margin-top:10px;
+    margin-left: 50px;
+}
+
+#formWebSiteIn{
+
+    margin-left: 45px;
+
+}
+
+#formTel{
+    float:left;
+    margin-top:10px;
+    margin-left: 50px;
+}
+
+#formTelIn{
+    margin-left: 56px;
+}
+
+#formCoffeeIn{
+    margin-left: 54px;
+}
+
+#formCoffee{
+    float:left;
+    margin-top:10px;
+    margin-left: 50px;
+}
+
+
+#formTemp{
+    float:left;
+    margin-top:10px;
+    margin-left: 50px;
+}
+
+
+#formTempIn{
+    margin-left: 0px;    
+}
+
+
+#formAddress{
+    float:left;
+    margin-top:10px;
+    margin-left: 50px;
+
+
+}
+
+#textArea{
+    margin-left: 100px; 
+
+}
+
+.clear{
+    clear: both;
+}
+
+
+#button1{
+
+    float:left;
+
+    margin-left:180px;
+
+}
+
+
+#hobbies{
+
+    float:left;
+
+    margin-left:45px;
+
+}
+
+
+#hobbiesIn{
+
+    float: left;
+
+    margin-top:10px;
+    margin-left:45px;
+
+
+}
+
+
+#genderIn{
+
+    float:left;
+    margin-top:10px;
+    margin-left:45px;
+
+}
+
+
+#formAge{
+
+    float:left;
+    margin-top:10px;
+    margin-left:45px;
+
+}
+
+#gender{
+    margin-top:10px;
+    float:left;
+
+    margin-left:45px;
+
+}
+
+
+#buttonSubmit{
+
+    float:left;
+
+    margin-left:180px;
+
+
+}
