@@ -11,7 +11,7 @@ window.onload=function(){
     var  obj_table_head=document.createElement("section");
 
 
-    obj_table_head.style.height="37px";
+    obj_table_head.style.height="33px";
     obj_table_head.style.width="700px";
     obj_table_head.style.borderTop="2px solid #c0c0c0";
     obj_table_head.style.borderBottom="2px solid #c0c0c0";
@@ -23,14 +23,14 @@ window.onload=function(){
 
     document.getElementById("time_report_sec_page_table").appendChild(obj_table_head);
 
-    add_top_menu_box(70,"תאריך",obj_table_head,"#ffffff",1);
-    add_top_menu_box(69,"יום",obj_table_head,"#ffffff",1);
-    add_top_menu_box(65,"משעה",obj_table_head,"#ffffff",1);
-    add_top_menu_box(75,"עד שעה",obj_table_head,"#ffffff",1);
-    add_top_menu_box(85,"סך השעות",obj_table_head,"#ffffff",1);
-    add_top_menu_box(117,"מקום פגישה",obj_table_head,"#ffffff",1);
-    add_top_menu_box(115,"תוכן הפגישה",obj_table_head,"#ffffff",1);
-    add_top_menu_box(100,"הוצאות נסיעה",obj_table_head,"#ffffff",0);
+    add_top_menu_box(60,"תאריך",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(69,"יום",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(65,"משעה",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(75,"עד שעה",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(85,"סך השעות",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(117,"מקום פגישה",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(115,"תוכן הפגישה",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(100,"הוצאות נסיעה",obj_table_head,"#e6e6e6",0);
 
 
     addRow("1.1.18","ראשון","15:00","17:00","שעתיים","ירושלים","אנגלית","11.40");
@@ -85,7 +85,7 @@ function addRow(date,day,fromTime,toTime,totalTime,place,content,cost)
     var tableObj=document.createElement("section");
 
     var  obj_table_student_section=document.createElement("section");
-    tableObj.style.height="35px";
+    tableObj.style.height="33px";
     tableObj.style.width="700px";
     tableObj.style.borderBottom="2px solid #c0c0c0";
     tableObj.style.borderRight="2px solid #c0c0c0";
@@ -97,7 +97,7 @@ function addRow(date,day,fromTime,toTime,totalTime,place,content,cost)
     
         document.getElementById("time_report_sec_page_table").appendChild(tableObj);
     
-        add_top_menu_box(70,date,tableObj,"#ffffff",1);
+        add_top_menu_box(60,date,tableObj,"#ffffff",1);
         add_top_menu_box(69,day,tableObj,"#ffffff",1);
         add_top_menu_box(65,fromTime,tableObj,"#ffffff",1);
         add_top_menu_box(75,toTime,tableObj,"#ffffff",1);
@@ -154,7 +154,7 @@ function add_top_menu_box(w,name,obj_row,obj_color,left_border){
 
     tableObj.style.backgroundColor=obj_color;
     tableObj.style.cssFloat="right";
-    tableObj.style.color="#0055cc";
+    tableObj.style.color="black";
     tableObj.style.fontSize="14px";
     tableObj.innerHTML=name;
     tableObj.style.textAlign = "center";

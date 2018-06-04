@@ -1,21 +1,14 @@
 window.onload=function(){
-    var objStudentAvatar=document.getElementById("studentProfileAvatar");
-    objStudentAvatar.style.display="block";
-    objStudentAvatar.style.backgroundImage = "url('images/student_2.png')";
-    objStudentAvatar.style.backgroundRepeat = "no-repeat";
-    objStudentAvatar.style.width="48px";
-    objStudentAvatar.style.height="48px";
-    objStudentAvatar.style.cssFloat="left";
-    objStudentAvatar.style.marginLeft="76px"; 
-    objStudentAvatar.style.marginTop="15px";
+    
 
 
 
     document.getElementById("studentProfileName").innerHTML="ניר אדלר";
+    document.getElementById("studentProfileId").innerHTML="302909866";
     document.getElementById("studentProfileAge").innerHTML="13";
     document.getElementById("studentProfileClass").innerHTML="ג";
     document.getElementById("studentProfileSchool").innerHTML="עין הרים";
-    document.getElementById("studentProfileSubjects").innerHTML="אנגלית,ספרות";
+    
 
 
 
@@ -35,11 +28,11 @@ window.onload=function(){
 
        
 
-    add_top_menu_box(103,"מקצוע",obj_table_head,"#ffffff",1);
-    add_top_menu_box(109,"תאריך",obj_table_head,"#ffffff",1);
-    add_top_menu_box(85,"כיתה",obj_table_head,"#ffffff",1);
-    add_top_menu_box(131,"מספר מבחן",obj_table_head,"#ffffff",1);
-    add_top_menu_box(85,"ציון",obj_table_head,"#ffffff",0);
+    add_top_menu_box(103,"מקצוע",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(109,"תאריך",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(85,"כיתה",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(131,"מספר מבחן",obj_table_head,"#e6e6e6",1);
+    add_top_menu_box(85,"ציון",obj_table_head,"#e6e6e6",0);
  
 
 
@@ -64,7 +57,7 @@ function add_top_menu_box(w,name,obj_row,obj_color,left_border){
     } 
     tableObj.style.backgroundColor=obj_color;
     tableObj.style.cssFloat="right";
-    tableObj.style.color="#0055cc";
+    tableObj.style.color="black";
     tableObj.style.fontSize="14px";
     tableObj.innerHTML=name;
     tableObj.style.textAlign = "center";

@@ -25,7 +25,7 @@
 }
 
 .input_style{
-   
+    width: 330px;
     height:27px;
     border: 1px solid gray;
     border-radius: 5px;
@@ -73,9 +73,16 @@ ul{
     top:3px;
 }
 
+#main_menu a:link{
+
+
+    color:#0055cc;
+}
+
 
 #main_menu ul a:hover{
     color:#ABB2B9;
+    text-decoration: none;
 }
 
 a:visited {
@@ -123,16 +130,13 @@ a:visited {
 
 
 #student_box{
-
     float: right;
-
     width: 200px;
-
     height: 394px;
     margin-right: 40px;
     margin-top:32px;
-    background-color: red;
-
+   
+    
 }
 
 
@@ -151,10 +155,9 @@ a:visited {
     width: 525px;
     height: 100px;
 
-    background-color: red;
+    
 
-    margin-left:150px;
-    margin-top:100px;   
+ 
 
     float:left;
 
@@ -288,8 +291,20 @@ a{
 
 }
 
-#menu_location_left_time_report{
+#studentProfileText{
 
+        float: right;
+        margin-top:15px;
+        margin-right: 33px;
+
+        color:#0055cc;
+
+}
+
+#menu_location_left_time_report{
+    color:#0055cc;
+    font-weight: bold;
+    
     float: right;
     margin-right: 7px;
     line-height:25px;
@@ -297,13 +312,12 @@ a{
 }
 
 #menu_location_home{
-    width: 25px;
+    width: 27px;
     height: 25px;
     float: right;
     background-image: url(../images/home_logo.png);
     background-repeat: no-repeat;
 }
-
 #user_name_avatar{
 
     width: 35px;
@@ -316,15 +330,17 @@ a{
 }
 
 #user_name_name{
-    
+    font-weight:bold;
     text-align:center;
+    color:#777777;
 
 }
 
 #user_name_pro{
 
     float: right;
-    margin-right: 15px;
+    margin-right:15px;
+    color:#777777;
 
 }
 
@@ -370,8 +386,8 @@ a{
 #calendar{
         float:left;
         width: 221px;
-        height: 221px;
-        background-color: black;
+        height: 219px;
+        
 }
 
 
@@ -379,8 +395,8 @@ a{
     margin-top:20px;
     float:left;
     width: 221px;
-    height: 221px;
-    background-color: darkkhaki;
+    height: 219px;
+    
 }
 
 
@@ -403,62 +419,49 @@ a{
 }
 
 
+#studentBoxFirst{
+    float:left;
+    width: 150px;
+    height: 120px;
+    margin-left: 30px;
 
-#timeReportSecPageToTimeIn{
+    
+    
+  
+
+}
+
+
+#studentBoxSec{
+
     float: left;
-
-    margin-right: 46px;
+    margin-left:30px;
+    width:150px;
+    height: 100px;
+   
+   
 
 }
 
 
-#time_report_sec_page_date_in{
 
-    float: left;
+#studentProfileAvatar{
+    float: right;
+    background-image: url(../images/student_2.png);
+    background-repeat: no-repeat;
+    margin-top:10px;
+    margin-right: 50px;
+   width: 46px;
+   height: 46px;
 
-    margin-right:57px;
 
-}
-
-#time_report_sec_page_day_in{
-
-    float: left;
-
-    margin-right:81px;
-
+    
 
 }
 
-#time_report_sec_page_from_time_in{
+.top_space{
 
-    float: left;
-
-    margin-right: 57px;
-
-}
-
-#timeReportSecPageTotalTimeIn{
-
-    float: left;
-
-    margin-right: 28px;
-
-}
-
-#timeReportSecPagePlaceIn{
-    float: left;
-
-    margin-right: 64px;
-
-
-}
-
-#timeReportSecPageToContentIn{
-
-    float: left;
-
-    margin-right: 13px;
-
+    margin-top:10px;
 }
 
 .margin_top_space2{
@@ -474,24 +477,32 @@ a{
 }
 
 #time_report_first_page_form_name1_in{
-    float: left;
-    margin-left:53px;
+    float: right;
+   
 }
 
 #time_report_first_page_form_name1{
-    height: 35px;
-    width: 300px;
-    margin:0 auto;
+    float:left;
+    margin-left: 300px;
+    height: 50px;
+    width: 400px;
+    
+
 }
 
 #time_report_first_page_form_id1{
     width: 300px;
-    margin:0 auto;
+    float:left;
+    margin-left:300px;
+    height: 50px;
+    width: 400px;
+    
+
 }
 
 #time_report_first_page_form_id1_in{
-    float: left;;
-    margin-left:52px;
+    float: right;
+   
 
 }
 
@@ -561,26 +572,29 @@ a{
 #secBox{
 
         float: left;
-        margin-left:130px;
-    height: 150px;
-    width: 300px;
+        margin-left:150px;
+    height: 205px;
+    width: 330px;
 
-   
+    
     
 
 
 }
 
+
+
+.float_rigth_input{
+    float: right;
+}
+
 #firstBox{
     float: right;
     margin-right: 150px;
-    height: 150px;
-    width:300px;
+    height: 205px;
+    width:330px;
 
-
-   
-
-
+  
 
 
 
@@ -595,10 +609,22 @@ a{
 #time_report_sec_page_form{
 
     width:1000px;
-    height: 150px;
-    
+    height: 330px;
+   
     float:left;
 
+
+}
+
+
+.blue_color{
+
+    
+
+}
+#time_report_tag{
+
+    
 
 }
 
@@ -606,8 +632,10 @@ a{
     float: right;
     font-size:18px;
     columns: #7a7a7a;
-    margin-right: 150px;
-    margin-bottom: 20px;
+    margin-right: 31px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color:#7a7a7a;
 }
 
 #time_report_first_page_form_school_name{
@@ -657,44 +685,45 @@ a{
 }
 
 #progress_bar_left_text{
+    color:#0055cc;
     float:right;
 }
 
 #time_report_first_page_form{
     width: 1000px;
     height: 304px;
-
-       
-
+   
     float:left;
-
-
-
 }
 
 #timeReportSecPageSubmitCon{
-    margin-left:150px;
+    float:left;
+    margin-left:430px;
     height: 20px;
     width: 70px;
-    float:left;
-
 }
 
 #timeReportSecPageSubmitFake{
     
     margin-top:20px;
     height: 35px;
-    width: 70px;
+    width: 120px;
+
+
+    border: 2px solid gray;
+    border-radius: 3px; 
+
+    color:#ffffff;
+    background-color:#0055cc;
+    border: 0px solid #0055cc;
+    border-radius: 3px;
+
+
 }
 
 #timeReportSecPageSubmit{
-    
     height: 20px;
-    width: 70px;
-    
-    
-
-    
+    width: 70px; 
 }
 
 #submit_id{
@@ -705,51 +734,134 @@ a{
     width: 100px;
 
     border: 2px solid gray;
+    border-radius: 3px; 
+
+    color:#ffffff;
+    background-color:#0055cc;
+    border: 0px solid #0055cc;
     border-radius: 3px;
     
+
+}
+
+#studentInfoTableBox{
+    width:525px;
+
+    height: 100px;
+    margin-left:200px;
+    margin-top:40px;
+
+    
+
 }
 
 
-
 #time_report_sec_page_box{
-    margin-top:100px;
+    margin-top:10px;
     float: left;
     width:1000px;
-
     height: 200px;
+}
 
-  
 
+.clear_2{
+
+
+    clear: both;
 }
 
 
 @media screen and (max-width:1000px) and (min-width:300px)
 {
 
+
+    #studentInfoTableBox{
+
+        float: right;
+        margin-right:100px; 
+    }
+
+    #studentBoxSec{
+
+
+
+       visibility: hidden;
+        
+    }
+
+    #studentBoxFirst{
+            margin-right: -16px;
+            margin-top:17px;
+            float: right;
+            
+          
+    }
+
+   
+
+
+    #student_box{
+        float:left;
+        margin-left:150px;
+        width: 521px;
+        height: 136px;
+
+        
+
+    }
+
+  
+
+ 
+
+  
+
+ 
+
+
+
+    
+
+    #time_report_first_page_form_id1{
+
+
+        margin-left: 150px;
+    }
+
+    #time_report_first_page_form_name1{
+        margin-left: 150px;
+
+    }
+
     #top_continer{
 
         
             width: 750px;
-            height: 150px;
+            height: 205px;
             float: left;
        
     }
 
+    #timeReportSecPageSubmitCon{
+
+        margin-left:320px;
+
+    }
 
     #firstBox{
-       
-        width:300px;
-
+       margin-left: 200px;
+        width:350px;
+        float: left;
        
 
     }
 
     #secBox{
-        float: right;
-        width:300px;
+        margin-left:200px;
+        float: left;
+        width:350px;
 
-        
-
+    
     }
 
     #time_report_sec_page_meeting_text{
@@ -758,12 +870,12 @@ a{
     }
 
     #time_report_sec_page_form{
-            height: 1000px;
+            height: 530px;
             width:750px;
+           
     }
 
     #time_report_sec_page_main_box{
-
         width: 200px;
     }
 
@@ -833,10 +945,11 @@ a{
 
 
     #right_menu{
-        width:463px;
-        height: 221px;
+        width:480px;
+        height: 230px;
         float: right;
         margin-right: 28px;
+       
 
     }
     #time_report_first_page_form_location{   

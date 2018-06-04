@@ -5,16 +5,29 @@ var obj_text=document.createElement("input");
 
 
 $("document").ready(function(){  
+
+
+   
     obj_text.setAttribute("type","text");
     obj_form.appendChild(obj_text);
     document.getElementsByTagName("body")[0].appendChild(obj_form);
     obj_form.style.visibility = "hidden";
 
+
+    $("#calendar").html("לוח שנה");
+    $("#calendar").css('border', '2px solid #cccccc'); 
+
+
     
-
-
+    $("#note").html("לבדוק ציונים<br><br>יש לדניאל שיעור היום ב17:00	");
+    $("#note").css('border', '2px solid #cccccc'); 
 
 });
+
+
+
+
+
 
 
 window.onload=function(){
@@ -33,10 +46,10 @@ window.onload=function(){
     obj_table_head.style.borderTop="2px solid #c0c0c0";
     obj_table_head.style.borderRight="2px solid #c0c0c0";
     obj_table_head.style.borderLeft="2px solid #c0c0c0";
-    obj_table_head.style.backgroundColor="#e6e6e6";
+    obj_table_head.style.backgroundColor="red";
 
-
-   
+ 
+    document.getElementById("student_table").appendChild(obj_table_head);
    
     
     add_top_menu_box(77,"תמונה",obj_table_head,1,"#e6e6e6",0);
@@ -47,6 +60,8 @@ window.onload=function(){
     add_top_menu_box(108,"בית ספר",obj_table_head,1,"#e6e6e6",0);
     add_top_menu_box(120,"סיכום שעות",obj_table_head,0,"#e6e6e6",0);
 
+   
+    
 
     add_top_menu_box(77,"",obj_table_buttom,1,"#ffffff",0);
     add_top_menu_box(120,"",obj_table_buttom,1,"#ffffff",0);
@@ -67,7 +82,7 @@ window.onload=function(){
     obj_table_buttom.style.backgroundColor="green";
 
 
-    
+   
 
 
     create_top_menu_student_section("student_1.png","nir adler","302909866","2","english","aaa","2");
@@ -76,16 +91,38 @@ window.onload=function(){
 
     document.getElementById("student_table").appendChild(obj_table_buttom);
 
+    
 
     document.getElementById("add_logo").addEventListener("click",add_student_button);
   
         document.getElementById("user_name_arrow").addEventListener("click",open_user_bar);
 
+
+
+        
 }
 
 function open_user_bar(){
 
-    alert("aaaa");
+
+    var objLogOut=document.createElement("section");
+    objLogOut.id="LogOutBox";
+
+    $("#LogOutBox").width("137px");
+    $("#LogOutBox").height("64px");
+    $("#LogOutBox").css("position","absolute");
+    $("#LogOutBox").css('left','457px');
+    $("#LogOutBox").css('top','140px');
+   
+
+    $("#LogOutBox").css("background-color","#777777");
+    $("#wrapper").append(objLogOut);
+
+
+
+
+   
+    
 
 }
 
