@@ -297,13 +297,12 @@ a{
 }
 
 #menu_location_home{
-    width: 25px;
+    width: 27px;
     height: 25px;
     float: right;
     background-image: url(../images/home_logo.png);
     background-repeat: no-repeat;
 }
-
 #user_name_avatar{
 
     width: 35px;
@@ -316,15 +315,17 @@ a{
 }
 
 #user_name_name{
-    
+    font-weight:bold;
     text-align:center;
+    color:#777777;
 
 }
 
 #user_name_pro{
 
     float: right;
-    margin-right: 15px;
+    margin-right:15px;
+    color:#777777;
 
 }
 
@@ -703,8 +704,9 @@ a{
     margin-left:40px;
     height: 40px;
     width: 100px;
-
-    border: 2px solid gray;
+    color:#ffffff;
+    background-color:#0055cc;
+    border: 0px solid #0055cc;
     border-radius: 3px;
     
 }
