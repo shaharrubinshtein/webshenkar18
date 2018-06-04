@@ -5,15 +5,10 @@
         <title>Time report</title>
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="includes/style.css">
+        <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
         <script src="includes/time_report_sec.js" async></script>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-
+   
     </head>
 
     <body>
@@ -31,8 +26,8 @@
                         <section id="main_menu">
                                 <ul id="main_menu_ul">
                                         <li class="menu_box"><a href="#">חומרי עזר</a></li>
-                                        <li class="menu_box menu_space"><a id="time_report_tag" href="time_report.html">דיווח שעות</a></li>
-                                        <li class="menu_box menu_space"><a href="#">ציונים</a></li>
+                                        <li class="menu_box menu_space"><a id="time_report_tag" href="time_report_first_sec.html">דיווח שעות</a></li>
+                                        <li class="menu_box menu_space"><a href="#">שאלונים</a></li>
                                         <section id="main_box_notification">
                                               <li class="menu_box menu_space"><a href="mail_box.html">הודעות</a></li>
                                               <section class="badge1">
@@ -88,29 +83,34 @@
                                                                 
                                                                         <section id="firstBox">
                                                                                     <section dir="rtl" id="time_report_sec_page_date" class="float_right_input "   >
-                                                                                            תאריך   
+                                                                                        <section class="float_rigth_input">תאריך</section>    
+                                                                                            <div class="clear"></div>
                                                                                             <input type="text" name="date" class="input_style" id="time_report_sec_page_date_in" >
                                                                                     </section>
 
                                                                                     <div class="clear"></div>
 
-                                                                                    <section dir="rtl" id="time_report_sec_page_day" class="float_right_input margin_top_space2">
-                                                                                            יום   
+                                                                                    <section dir="rtl" id="time_report_sec_page_day" class="float_right_input ">
+                                                                                           <section class="float_rigth_input">יום</section>   
+                                                                                            <div class="clear"></div>
                                                                                             <input type="text" name="day" class="input_style" id="time_report_sec_page_day_in" >
                                                                                     </section>
 
                                                                                     <div class="clear"></div>
 
-                                                                                    <section dir="rtl" id="time_report_sec_page_from_time" class="float_right_input margin_top_space2">  
-                                                                                            משעה   
+                                                                                    <section dir="rtl" id="time_report_sec_page_from_time" class="float_right_input ">   
+                                                                                            <section class="float_rigth_input">משעה</section>    
+                                                                                            <div class="clear"></div> 
                                                                                             <input type="text" name="fromTime" class="input_style"  id="time_report_sec_page_from_time_in" >
                                                                                     </section>
 
                                                                                     <div class="clear"></div>
 
 
-                                                                                    <section dir="rtl" id="timeReportSecPageToTime"  class="float_right_input margin_top_space2">
-                                                                                        עד שעה  
+                                                                                    <section dir="rtl" id="timeReportSecPageToTime"  class="float_right_input ">
+                                                                                       
+                                                                                        <section class="float_rigth_input">עד שעה</section>   
+                                                                                        <div class="clear"></div>
                                                                                             <input type="text" name="toTime" class="input_style" id="timeReportSecPageToTimeIn" >
                                                                                     </section>
                                                                         </section>
@@ -119,29 +119,36 @@
 
                                                             <section id="secBox">
                                                                         <section dir="rtl" id="timeReportSecPageTotalTime"  class="float_right_input ">
-                                                                                סך השעות 
+                                                                                <section class="float_rigth_input">סך שעות</section>   
+                                                                                <div class="clear"></div>
                                                                                 <input type="text" name="TotalTime" class="input_style" id="timeReportSecPageTotalTimeIn" >
                                                                         </section>
 
                                                                         <div class="clear"></div>
 
-                                                                        <section dir="rtl" id="timeReportSecPagePlace"  class="float_right_input margin_top_space2">
-                                                                            מקום 
+                                                                        <section dir="rtl" id="timeReportSecPagePlace"  class="float_right_input ">
+                                         
+                                                                            <section class="float_rigth_input">מקום</section>   
+                                                                            <div class="clear"></div>
                                                                                 <input type="text" name="toTime" class="input_style" id="timeReportSecPagePlaceIn" >
                                                                         </section>
 
                                                                         <div class="clear"></div>
 
-                                                                        <section dir="rtl" id="timeReportSecPageToContent"  class="float_right_input margin_top_space2">
-                                                                                תוכן הפגישה 
+                                                                        <section dir="rtl" id="timeReportSecPageToContent"  class="float_right_input ">
+                                                                               
+                                                                                <section class="float_rigth_input">תוכן הפגישה</section>   
+                                                                                <div class="clear"></div>
                                                                                 <input type="text" name="content" class="input_style"  id="timeReportSecPageToContentIn" >
                                                                         </section>
 
                                                                         <div class="clear"></div>
 
 
-                                                                        <section dir="rtl" id="timeReportSecPageToCost" class="float_right_input margin_top_space2">
-                                                                                הוצאות נסיעה 
+                                                                        <section dir="rtl" id="timeReportSecPageToCost" class="float_right_input ">
+                                                                                
+                                                                                <section class="float_rigth_input">הוצאות נסיעה</section>   
+                                                                                <div class="clear"></div>
                                                                                 <input type="text" name="cost" class="input_style"  id="timeReportSecPageToCostIn" >
                                                                         </section>
                                                             </section>
