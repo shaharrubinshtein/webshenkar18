@@ -1,0 +1,949 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#wrapper{
+        margin:0 auto;
+        width: 100%;
+}
+
+#userTable{
+        width: 90%;
+        margin-top:30px;
+        margin-right: 17px;
+        margin:0 auto;
+}
+
+#userGradeTable{
+        width: 80%;
+        margin-top:30px;
+        margin-right: 17px;
+        margin:0 auto;
+}
+
+.notBold{
+    
+    font-weight: normal;
+}
+
+#userTableOut{
+    width: 100%;
+    float:left;
+}
+
+#mainUserMenuIn{
+    height: 70px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+#mainUserMenuBoxBread{
+    height: 48px;
+    width: 70%;
+    float: right;
+}
+
+#userLogin{
+    height: 55px;
+    width:130px;
+    float:left;
+}
+
+
+#sqlDataIn{
+    width: 80%;
+    height: 200px;
+    margin:0 auto;
+}
+
+
+#sqlDataOut{
+    width: 100%;
+    height: 200px;
+    float:left;
+}
+
+#mainUserMenu{
+   
+    height: 70px;
+    width: 100%;    
+    float: left;
+    margin-top:10px;
+}
+
+#top{
+        width:100%;
+        height:1000px;
+}
+
+#fillReportForm{
+    width: 80%;
+    height: 330px;
+    margin:0 auto;
+}
+
+#fillReportFormOut{
+    width: 100%;
+    height: 360px;
+    float:left;
+    margin-top:10px;
+}
+
+
+.oneRowInfo{
+    width: 100%;
+    height: 50px;
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.oneRowInfoDateOut{
+    height: 50px;
+    width: 18%;
+    float: right;
+}
+
+.oneRowInfoDateOutIn{
+    height: 50px;
+    width: 80%;
+    margin:0 auto;
+}
+
+
+.oneRowInfoStartTimeOut{
+    height: 50px;
+    width: 18%;
+    float: right;
+}
+
+.oneRowInfoStartTimein{
+    height: 50px;
+    width: 80%;
+    margin:0 auto;
+}
+
+
+.oneRowInfoStartTotalTimeOut{
+    height: 50px;
+    width: 8%;
+    float: right;
+}
+
+.oneRowInfoStartTotalTimeIn{
+    height: 50px;
+    width: 80%;
+    margin:0 auto;
+}
+
+
+.oneRowInfoStartPlaceOfMeetingOut{
+    height: 50px;
+    width: 18%;
+    float: right;
+}
+
+.oneRowInfoStartPlaceOfMeetingIn{
+    height: 50px;
+    width: 80%;
+    margin:0 auto;
+}
+
+.oneRowInfoMeetingSubjectOut{
+    height: 50px;
+    width: 28%;
+    float: right;
+}
+
+.oneRowInfoMeetingSubjectIn{
+    height: 50px;
+    width: 80%;
+    margin:0 auto;
+}
+
+.oneRowInfoCostOut{
+    height: 50px;
+    width: 10%;
+    float: right;
+}
+
+.oneRowInfoCostIn{
+    height: 50px;
+    width: 80%;
+    margin:0 auto;
+}
+
+.textCenterd{
+    text-align: center;
+
+}
+
+#massageTitleOut{
+    width: 100%;
+    float: left;
+    height: 60px;
+
+}
+
+
+#quizDataOut{
+    float:left;
+    width: 100%;
+    height: 400px;
+ 
+    
+    
+}
+
+#quizDataIn{
+
+    margin:0 auto;
+    width: 80%;
+    height: 100%;
+    
+
+
+}
+
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.logInMarginTop{
+
+    margin-top:25px;
+}
+
+.marginTopTen{
+
+    margin-top:4px;
+}
+
+.dataBoxOneLine{
+    width: 100%;
+    height: 30px;
+    float:left;
+}
+
+.dataBoxText{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    background-color: #f8f09a;
+    border-radius: 5px;
+}
+
+#studentQuizButtonBoxOut{
+    width: 100%;
+    height: 39px;
+    float:left;
+   
+}
+
+#studentQuizButtonBoxIn{
+    width: 76px;
+    height: 39px;
+    margin: 0 auto;
+    
+}
+
+.logInPageButton{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.LogInPageButtonBox{
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+#logInPageOut{
+        width: 100%;
+        height: 200px;
+        margin-top:50px;
+        float:left;
+}
+
+#logInPageIn{
+   width: 30%;
+   height: 100%;
+   margin:0 auto;
+   border: solid;
+   border-width: 1px;
+   border-radius: 7px;
+}
+
+.smallFontSize{
+    font-size: 20px;
+    color:#757575;
+    font-family: 'Gaegu', cursive;
+}
+
+.indexPageText{
+    font-size: 20px;
+    color:black;
+
+}
+
+.wrongAnswer{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.quizDataBox{
+    height: 170px;
+    width: 150px;
+    float: right;  
+}
+
+.textCenter{
+    text-align: right;
+    line-height:50px;  
+}
+
+.btnBorder{
+    border:0px solid transparent;
+}
+
+.ReportBox{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    float: right;
+}
+
+#topMenuSearchBox{
+    float: left;
+    margin-top:10px;
+    width: 176px;
+    height: 25px; 
+}
+
+#topMenuNav{
+    width: 100%;
+    height: 50%;
+}
+
+#selectStudentForm{
+    height: 133px;
+    direction: rtl;
+}
+
+
+
+
+#navbarTogglerDemo01{
+    width: 100px;
+    height: 100%;
+
+    
+
+}
+
+#selectStudent{
+    width:100%;
+    height: 145px;
+    float:left;
+}
+
+#fillFormDate{
+    direction: rtl;
+    text-align:right;
+
+}
+
+#userTableIn{
+    direction: rtl;
+    width:100%;
+    text-align: right;
+    
+}
+
+#userTableMessageIn{
+    direction: rtl;
+    width:100%;
+    text-align: right;
+}
+
+input[type=submit]:hover{
+    text-decoration:underline;
+}
+
+
+.buttonNoBorder{
+    color: #0000EE; /* button text color */
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+      text-decoration: none; /* remove underline if using A instead of BUTTON tag */
+    overflow: hidden;
+}
+
+.buttonNoBorder:hover{
+    text-decoration: none;
+}
+
+
+#h1HeadOut{
+    width: 100%;
+    height: 30px;
+    float:left;
+    margin-top:10px;
+}
+
+#h1HeadIn{
+    width: 80%;
+    height: 100%;
+    margin:0 auto;
+    text-align: center;
+
+}
+
+#userGradeTableIn{
+    direction: rtl;
+    width:100%;
+    text-align: right;
+}
+
+#markAndMistakeOut{
+    width: 100%;
+
+    height: 100px;
+
+    
+    float:left;
+
+}
+
+#markAndMistakeIn{
+
+    width: 40%;
+    height: 100%;
+    margin:0 auto;
+   
+
+}
+
+#markAndMistakeLeft{
+    width: 40%;
+    height: 100%;
+    float:left;
+ 
+
+
+}
+
+
+#markAndMistakeRight{
+    width: 40%;
+    height: 100%;
+    float:right;
+ 
+}
+
+#topMenuSearchButton{
+        height: 25px;
+        width: 25px;
+        border-color: #b2b4b7;
+}
+
+#breadLeft{
+    float: right;
+    background-color: white;
+}
+
+#breadLeft a{
+    text-decoration: none;
+}
+
+
+#topMenuSearchButton:hover{
+    background-color: white;
+}
+
+#topMenuSearchText{
+    direction:rtl;
+    float: left;
+    height: 25px;
+    width:150px;
+}
+
+#topMenuText{
+   
+    width: 300px;
+    height: 40px;
+ }
+
+
+#logInPageLogoOut{
+    width: 100%;
+    height: 90px;
+    float:left;
+}
+
+#logInPageLogIn{
+    width:165px;
+    height:100%;
+    margin:0 auto;
+ 
+}
+
+header{
+        width: 100%;
+        height: 90px;
+        -webkit-box-shadow: 0px 4px 3px 0px rgba(178,180,183,1);
+        -moz-box-shadow: 0px 4px 3px 0px rgba(178,180,183,1);
+        box-shadow: 0px 4px 3px 0px rgba(178,180,183,1);
+       
+}
+
+#logo{
+    background: url(../images/I_SMART_logo.png) no-repeat;
+    height: 33px;
+    width: 165px;
+    display: block;
+    float:left;
+    margin-left:22px;   
+}
+
+
+#logInPageLogo{
+    background: url(../images/I_SMART_logo.png) no-repeat;
+    height: 33px;
+    width: 165px;
+    display: block;
+    float:left;
+    margin-top:25px;    
+}
+
+#LogoBox{ 
+    height:33px;
+    width: 165px;
+    margin-top:10px;
+}
+
+#mobileMenuButton{
+    border: none;
+    outline: none;
+}
+
+#LogoBoxMobile{
+    visibility: hidden;
+}
+
+#LogoBoxpc{
+    visibility: visible;
+   
+    margin-top:10px;
+}
+
+
+#studentIndexMenuBoxOut{
+    margin-top:30px;
+    width: 100%;
+    height: 100px;
+    float:left;
+}
+
+.floatLeft{
+
+float: left;
+}
+
+
+#studentIndexHelpBoxOut{
+    width: 33%;
+    height:  100%;
+    float:left;
+}
+
+
+#studentIndexQuizBoxOut{
+    width: 34%;
+    height:  100%;
+    float:left;
+}
+
+#studentIndexGamesBoxOut{
+    width: 33%;
+    height: 100%;
+    float:left;
+}
+
+
+#studentIndexHelpBoxIn{
+    width: 100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#studentIndexGamesBoxIn{
+    width: 100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#studentIndexQuizBoxIn{
+    width: 100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.circle{
+        width: 100px;
+        height: 100px;
+        background: red;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+}
+
+
+#studentIndexMenuBoxIn{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:active,
+.navbar-toggle:focus
+{
+background:none !important;
+border-color:none !important;
+}
+
+#topMenuSearchLogo{
+    background: url(../images/magnifying_glass.png) no-repeat;
+    height: 18px;
+    width: 18px;
+    display: block;
+    position: relative;
+    left:-8px;
+    top:-1px;
+}
+
+
+#quizBox{
+    background: url(../images/quizBox.png) no-repeat;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#HelpBox{
+    background: url(../images/helpBox.png) no-repeat;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#gameBox{
+    background: url(../images/gameBox.png) no-repeat;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#mathLogo{
+    background: url(../images/mathLogo.png) no-repeat;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+.fromHiddenInput {
+	visibility: hidden;
+}
+
+
+
+#hebrewLogo{
+    background: url(../images/hebrewLogo.png) no-repeat;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#englishLogo{
+    background: url(../images/englishLogo.png) no-repeat;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#topMenuUl{
+    float: right;
+    width: 80px;
+    height: 80px;  
+}
+
+#selectUserSmallBoxOut{
+   width: 100%;
+    height: 40px;
+    float:left;
+}
+
+#selectUserSmallBoxIn{
+    width: 80%;
+    margin:0  auto;
+}
+
+#studentTopLineBox{
+    width: 100%;
+    height: 45px;   
+    float: left;
+}
+
+.fontGoogle{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.floatright{
+    float:right;
+}
+
+
+#fillFormTimeBoxOut{
+    width: 40%;
+    float: right;
+}
+
+#fillFormTime{
+    width: 100%;
+    float:left;
+    height: 80px;  
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type="date"]
+{
+    -webkit-appearance: none;
+}
+
+#fillFormDateBox{
+    width: 48%;
+    float: right;
+}
+
+#fillFormLocation{
+    width: 48%;
+    float: right;
+}
+
+#fillFormSubject{
+    width: 48%;
+    float: left;
+}
+
+#fillFormTimeBox{
+    width: 80%;
+    margin:0 auto;
+}
+
+#fillFormTextInfo{
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+
+#fillFormcostBox{
+    width: 25%;
+    float: right;
+}
+
+#fillFormTextcost{
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+
+
+#fillFormTotalTimeBox{
+    float: left;
+    width:48%;
+}
+
+#studentSelect{
+    margin: 0 auto;
+    width: 80%;
+    height: 30px;   
+    text-align: right;      
+}
+
+#studentSelectFill{
+   float:right;
+    height: 30px;   
+    text-align: right;
+
+}
+
+#reportTimeSearchButton{
+        height: 40px;
+}
+
+#reportTimeSearchButtonBoxin{
+        height: 45px;
+        width:80%;
+        margin:0 auto;
+        margin-top:10px;
+}
+
+#loadStudentInfo{
+    width: 100%;
+    float:left;
+    height: 100px;
+}
+
+#loadStudentInfoIn{
+    width: 80%;
+    height:100px;
+    margin:0 auto;
+}
+
+
+#reportTimeSearchButtonBoxOut{
+    height: 45px;
+    width: 100%;
+    float: left;
+}
+
+
+@media screen and  (max-width:650px) and (min-width:576px){
+
+    #userTableIn tr :nth-child(4), #userTableIn
+    tr :nth-child(7) {
+    display: none;
+    }
+
+    #userTableIn{
+            width:100%;
+    }
+
+    
+
+    #userTableMessageIn  tr :nth-child(4),
+    #userTableMessageIn  tr :nth-child(2)
+   {
+
+        display: none;
+    }
+
+
+}
+
+
+@media screen and  (max-width:576px)
+{
+    #wrapper{
+            width:100%;
+    }
+    #topMenuSearchBox{
+        width: 176px;
+        float: right;
+        height: 25px;  
+    }
+
+    #topMenuText{
+        width: 100%;
+        height: 200px;
+        text-align: right;
+    }
+  
+    #topMenuNav{
+        width: 100%;
+        float:left;   
+    }
+  
+    #logo{
+       margin-left:0px;
+    }
+
+    #LogoBoxpc{
+        visibility: hidden;
+    }
+
+    #LogoBoxMobile{
+        float:left;
+        visibility: visible;
+    }
+
+    #navbarTogglerDemo01{
+        height: 350px;
+        background-color: white;
+    }
+
+    .allWidth{
+        width: 100%;
+
+    }
+
+    .oneRowInfo{
+
+        height: 300px;
+
+    }
+    #studentIndexHelpBoxOut{
+        width: 100%;
+    }
+    #studentIndexQuizBoxOut{
+        width: 100%;
+        margin-top:20px;
+    
+    }
+    #studentIndexGamesBoxOut{
+        width: 100%;
+        margin-top:20px;
+    }
+
+    
+    
+    #userTableIn tr :nth-child(4), #userTableIn
+    tr :nth-child(5), #userTableIn
+    tr :nth-child(6), #userTableIn
+    tr :nth-child(7) {
+    display: none;
+    }
+
+    #userTableMessageIn  tr :nth-child(4),
+    #userTableMessageIn  tr :nth-child(2)
+   {
+
+        display: none;
+    }
+
+   
+
+ 
+
+
+    
+   
+    
+}
